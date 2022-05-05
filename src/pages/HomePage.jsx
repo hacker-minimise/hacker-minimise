@@ -1,7 +1,8 @@
-export function HomePage () {
+export function HomePage() {
   return (
-  <main>
+    <main>
       <h1>Hacker-Minimise</h1>
       <h2>WIP</h2>
-  </main>);
+    </main>
+  );
 }
