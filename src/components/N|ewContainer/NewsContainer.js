@@ -1,4 +1,4 @@
-import NewsItems from "./NewsItems";
+import NewsItems from "../NewsItems/NewsItems";
 
 
 function NewsContainer() {
@@ -10,7 +10,7 @@ function NewsContainer() {
    )
 
 }
-
+    
 export default NewsContainer;
 
 // parent of news items

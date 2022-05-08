@@ -1,27 +1,26 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./components/Button/Navbar/Navbar";
 
 import { HomePage } from "./pages/HomePage";
 import { AboutPage } from "./pages/AboutPage";
-import Button from "./components/Button";
+import Button from "./components/Button/Button";
 
 import "./App.css";
-import NewsContainer from "./components/NewsContainer";
+import NewsContainer from "./components/N|ewContainer/NewsContainer";
+import NewsItems from "./components/NewsItems/NewsItems";
 
 function App() {
-
-  
-
-
-  
-
   return (
     <Router>
-      <Navbar />
-      <NewsContainer />
-      <Button />
-    
+
+        <Navbar/>
+          <Button />
+       
+
+        <NewsContainer>
+          <NewsItems />
+        </NewsContainer>
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />

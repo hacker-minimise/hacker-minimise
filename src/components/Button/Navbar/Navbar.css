@@ -1,0 +1,12 @@
+:root {
+    --bg:  #242526;
+    --nav-size: 60px;
+    --border: 1px solid #474a4d; 
+  }
+
+.navbar {
+    height: var(--nav-size);
+    background-color: var(--bg);
+    padding: 0 1rem;
+    border-bottom: var(--border);
+  }
