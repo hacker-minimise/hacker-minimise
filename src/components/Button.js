@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Button(props) {
+function Button() {
 
     const [ search, setSearch ] = useState(false);
 
